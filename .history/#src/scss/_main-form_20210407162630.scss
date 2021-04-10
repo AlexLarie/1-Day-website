@@ -1,0 +1,38 @@
+.general{
+   padding: 260px 0 100px 0;
+   &__content{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__left{
+      
+   }
+    
+   &__title{
+      font-size: 36px;
+      font-family: "Open Sans";
+      color: rgb(6, 148, 248);
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+   }
+   &__text{
+      .Lorem_ipsum_dolor_sit_amet__consectetur___Ut_en {
+         font-size: 36px;
+         font-family: "Open Sans";
+         color: rgb(6, 148, 248);
+         font-weight: bold;
+         font-style: italic;
+         line-height: 1.2;
+         text-align: left;
+         position: absolute;
+         left: 609.937px;
+         top: 1161.805px;
+         width: 505px;
+         height: 193px;
+         z-index: 172;
+       }
+       
+   }
+}

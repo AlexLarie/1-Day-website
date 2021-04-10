@@ -1,0 +1,28 @@
+@import 'nullstyle';
+@import 'main';
+@import 'header';
+@import 'main-form';
+@import 'order';
+@import 'about';
+@import 'map';
+@import 'footer';
+@import 'popap';
+@import 'burger-menu';
+
+@font-face {
+   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+   font-family: "Open Sans"; 
+   // адрес шрифта и тип 
+   src: url("../fonts/inglobali.ttf") format("truetype"); 
+   font-style: italic; 
+   font-weight: bold; 
+   }
+
+body {
+   font-family: "Open Sans";
+}
+.container{
+   max-width: 976px;
+   margin: 0 auto;
+   position: relative;
+}

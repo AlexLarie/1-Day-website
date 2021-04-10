@@ -1,0 +1,14 @@
+@import 'nullstyle';
+@import 'main';
+@import 'header';
+@import 'main-form';
+@import 'order'
+
+body {
+   font-family: "Open Sans";
+}
+.container{
+   max-width: 976px;
+   margin: 0 auto;
+   position: relative;
+}

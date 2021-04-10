@@ -1,0 +1,19 @@
+.map{
+   &::before{
+      content: none;
+   }
+   &::after{
+      content: none;
+   }
+   background-color: rgb(6, 148, 248);
+}
+.bg {
+   background-color: rgb(6, 148, 248);
+   position: absolute;
+   left: 0px;
+   top: 4030px;
+   width: 2200px;
+   height: 700px;
+   z-index: 9;
+ }
+ 

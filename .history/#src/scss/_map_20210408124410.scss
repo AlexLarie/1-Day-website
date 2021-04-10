@@ -1,0 +1,81 @@
+.map{
+   &::before{
+      content: none;
+   }
+   &::after{
+      content: none;
+   }
+   
+   z-index: 2;
+   background-color: rgb(6, 148, 248);
+   &__content{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding-top: 100px;
+      position: relative;
+   }
+   &__map{
+      position: relative;
+      z-index: 5;
+   }
+   &__l{
+      position: relative;
+      padding-bottom: 180px;
+   }
+   &__russia{
+      position: absolute;
+      bottom: -125px;
+      z-index: 10;
+      left: -40px;
+      z-index: 1;
+   }
+   &__r{
+      display: flex;
+      flex-direction: column;
+      color: white;
+      align-items: flex-end;
+      text-align: end;
+      padding-left: 30px;
+   }
+   &__title{
+      font-size: 36px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      text-align: right;
+      margin-bottom: 35px;
+   }
+   &__text{
+      font-size: 16px;
+      font-weight: lighter;
+      line-height: 1.4;
+      font-family: "Open Sans";
+      &--bold{
+         font-weight: bold;
+         text-transform: uppercase;
+      }
+   }
+   &__item{
+      &:first-of-type{
+         margin-top: 40px;
+      }
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      &:after{
+         content: '';
+         position: absolute;
+         right: 0px;
+         width: 200px;
+         height: 1px;
+         background-color: white;
+         
+      }
+   }
+}
+
+ 
+
+

@@ -1,0 +1,30 @@
+.order{
+   background-image: url(../img/BG.png);
+   min-height: 300px;
+   margin-top: 120px;
+   background-repeat: no-repeat;
+   padding-top: 80px;
+   &__top{
+      display: flex;
+      justify-content: center;
+      position: relative;
+   }
+   &__notes{
+      transform: translateX(-15px);
+   }
+   &__title{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 30px;
+      font-family: "Open Sans";
+      color: rgba(40, 40, 40, 0);
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      text-align: left;
+      text-shadow: 2px 1px 1px rgba(114, 71, 6, 0.5);
+   }
+}
+
+ 

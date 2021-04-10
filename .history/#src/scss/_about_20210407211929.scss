@@ -1,0 +1,46 @@
+.about{
+   &__content{
+      display: flex;
+      justify-content: space-between;
+
+   }
+   .item{
+      display: flex;
+      flex-direction: column;
+      max-width: 340px;
+   }
+   &__l{
+      align-items: flex-start;
+      text-align: start;
+   }
+   &__r{
+      align-items: flex-end;
+      text-align: end;
+   }
+   &__title{
+      font-size: 2.7rem;
+      font-family: "Open Sans";
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+      &--
+   }
+}
+
+.____Ut_enim_ad_minim_veniam__quis_nostrud_exerc {
+   font-size: 36px;
+   font-family: "Open Sans";
+   color: rgb(255, 67, 30);
+   font-weight: bold;
+   font-style: italic;
+   line-height: 1.2;
+   text-align: right;
+   position: absolute;
+   left: 1236.637px;
+   top: 3021.605px;
+   width: 347px;
+   height: 113px;
+   z-index: 46;
+ }
+ 

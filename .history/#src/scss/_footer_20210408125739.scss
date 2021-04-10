@@ -1,0 +1,16 @@
+.footer{
+   height: 160px;
+   background-color: #fff;
+   .container{
+      
+   }
+   &__inner{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+   &__text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}

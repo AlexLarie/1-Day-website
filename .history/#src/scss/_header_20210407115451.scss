@@ -1,0 +1,22 @@
+.header{
+   height: 120px;
+   padding: 33px;
+}
+
+.nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   &__item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &:hover svg{
+         color: red;
+      }
+   }
+   &__text{
+      margin-top: 10px;
+      font-family: inglobal;
+   }
+}

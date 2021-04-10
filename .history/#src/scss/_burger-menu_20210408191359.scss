@@ -1,0 +1,51 @@
+.burger{
+   height: 70px;
+   border: 1px solid grey;
+   position: fixed;
+   top: 0px;
+   background-color: #fff;
+   z-index: 100;
+   width: 100%;
+   &__item--top{
+      height: 70px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 70px;
+      .burger__left{
+         display: flex;
+         justify-content: start;
+         align-items: center;
+         padding: 0px 20px;
+      }
+      .burger__right{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .burger__button{
+         position: relative;
+         &::before{
+            content: url(../img/menu_icon.png);
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+         }
+         &::after{
+            content: url(../img/menu_icon.png);
+            position: absolute;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+         }
+      }
+      .burger__button.active{
+         &::before{
+            transform: rotate(45deg) translateX(-8px);
+         }
+         &::after{
+            transform: rotate(45deg) translateX(-8px);
+         }
+      }
+   }
+}

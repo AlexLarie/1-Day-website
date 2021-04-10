@@ -1,0 +1,19 @@
+@import 'nullstyle';
+@import 'main';
+@import 'header';
+@import 'main-form';
+@import 'order';
+@import 'about';
+@import 'map';
+@import 'footer';
+@import 'popap';
+@import ''
+
+body {
+   font-family: "Open Sans";
+}
+.container{
+   max-width: 976px;
+   margin: 0 auto;
+   position: relative;
+}

@@ -1,0 +1,161 @@
+.about{
+   padding-bottom: 100px;
+   margin-bottom: 100px;
+   &__content{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 10px;
+      @media (max-width: 720px){
+         flex-direction: column;
+         padding: 0px 30px;
+      }
+   }
+   .item{
+      display: flex;
+      flex-direction: column;
+      max-width: 340px;
+      @media (max-width: 720px){
+         max-width: 100%;
+      }
+   }
+   &__l{
+      align-items: flex-start;
+      text-align: start;
+      
+   }
+   &__r{
+      align-items: flex-end;
+      text-align: end;
+   }
+   &__title{
+      font-size: 2.7rem;
+      font-family: "Open Sans";
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+      &--blue{
+         color: #0694f8;
+      }
+      &--red{
+         color: red;
+      }
+   }
+   &__text{
+      font-size: 16px;
+      color: gray;
+      line-height: 1.4;
+      font-family: "Open Sans";
+   }
+   &__list{
+      margin-top: 20px;
+      li{
+         font-size: 14px;
+         margin-bottom: 10px;
+         position: relative;
+      }
+      &--l{
+         li{
+            padding-left: 20px;
+         }
+         svg{
+            position: absolute;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+         }
+      }
+      &--r{
+         li{
+            padding-right: 20px;
+         }
+         svg{
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+         }
+      }
+   }
+   &__img{
+      position: relative;
+      height: 180px;
+      svg{
+         position: absolute;
+         left: 53%;
+         z-index: 1;
+         transform: translateX(-50%);
+         top: -200px;
+         @media (max-width: 720px){
+            display: none;
+         }
+      }
+      &::before{
+         content: url(../img/pen.png);
+         position: absolute;
+         top: -250px;
+         left: 50%;
+         @media (max-width: 720px){
+            content: '';
+         }
+      }
+   }
+   &__number{
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../img/BgPhone.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 2;
+      @media (max-width: 720px){
+         background-image: url(../img/phone-mobile.png);
+         
+         background-size: cover;
+         background-position: 0px 0;
+      }
+   }
+}
+
+.number{
+   &__inner{
+      display: flex;
+      flex-direction: column;
+      padding-left: 70px;
+      align-items: center;
+      position: relative;
+      color: white;
+      @media (max-width: 720px){
+         align-items: flex-start;
+         padding-left: 0px;
+      }
+      &::before{
+         content: url(../img/phone.png);
+         position: absolute;
+         left: -70px;
+         top: -105px;
+         @media (max-width: 720px){
+            opacity: 0.3;
+         }
+      }
+   }
+   &__text{
+      font-size: 18px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      line-height: 1.2;
+      text-align: left;
+      transform: translateY(-20px);
+      &--bold{
+         font-weight: bold;
+      }
+   }
+   &__phone{
+      font-size: 30px;
+      color: white;
+      font-weight: bold;
+      font-style: italic;
+   }
+}
+

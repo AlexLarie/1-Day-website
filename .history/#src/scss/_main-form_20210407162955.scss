@@ -1,0 +1,43 @@
+.general{
+   padding: 260px 0 100px 0;
+   &__content{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__left{
+      
+   }
+    
+   &__title{
+      font-size: 2.7rem;
+      font-family: "Open Sans";
+      color: rgb(6, 148, 248);
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+   }
+   &__text{
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.4;
+      font-family: "Open Sans";
+   }
+}
+
+.____Ut_enim_ad_minim_veniam__quis_nostrud_exerc {
+   font-size: 36px;
+   font-family: "Open Sans";
+   color: rgb(6, 148, 248);
+   font-weight: bold;
+   font-style: italic;
+   line-height: 1.2;
+   text-align: left;
+   position: absolute;
+   left: 610.937px;
+   top: 3021.605px;
+   width: 337px;
+   height: 257px;
+   z-index: 33;
+ }
+ 

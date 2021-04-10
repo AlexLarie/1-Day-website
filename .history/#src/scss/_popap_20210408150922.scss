@@ -1,0 +1,39 @@
+.form__popap{
+   position: fixed;
+   left: 0px;
+   top: 20%;
+   z-index: 1000;
+   background-color: #fff;
+}
+
+.popap{
+   
+   &__show{
+      position: absolute;
+      transform: rotate(-90deg);
+      background-color: rgb(6, 148, 248);
+      width: 200px;
+      height: 50px;
+      display: grid;
+      grid-template-columns: 80% 20%;
+      
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      left: 243px;
+      top: 75px;
+   }
+   &__text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      border-right: 1px solid white;
+   }
+   &__button{
+      margin: 10px;
+      
+   }
+}
+
+
+ 

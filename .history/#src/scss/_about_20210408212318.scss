@@ -1,0 +1,139 @@
+.about{
+   padding-bottom: 100px;
+   margin-bottom: 100px;
+   &__content{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 10px;
+      @media (max-width: 720px){
+         flex-direction: column;
+         pad
+      }
+   }
+   .item{
+      display: flex;
+      flex-direction: column;
+      max-width: 340px;
+   }
+   &__l{
+      align-items: flex-start;
+      text-align: start;
+      
+   }
+   &__r{
+      align-items: flex-end;
+      text-align: end;
+   }
+   &__title{
+      font-size: 2.7rem;
+      font-family: "Open Sans";
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+      &--blue{
+         color: #0694f8;
+      }
+      &--red{
+         color: red;
+      }
+   }
+   &__text{
+      font-size: 16px;
+      color: gray;
+      line-height: 1.4;
+      font-family: "Open Sans";
+   }
+   &__list{
+      margin-top: 20px;
+      li{
+         font-size: 14px;
+         margin-bottom: 10px;
+         position: relative;
+      }
+      &--l{
+         li{
+            padding-left: 20px;
+         }
+         svg{
+            position: absolute;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+         }
+      }
+      &--r{
+         li{
+            padding-right: 20px;
+         }
+         svg{
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+         }
+      }
+   }
+   &__img{
+      position: relative;
+      height: 180px;
+      svg{
+         position: absolute;
+         left: 53%;
+         z-index: 1;
+         transform: translateX(-50%);
+         top: -200px;
+      }
+      &::before{
+         content: url(../img/pen.png);
+         position: absolute;
+         top: -250px;
+         left: 50%;
+      }
+   }
+   &__number{
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../img/BgPhone.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 2;
+   }
+}
+
+.number{
+   &__inner{
+      display: flex;
+      flex-direction: column;
+      padding-left: 70px;
+      align-items: center;
+      position: relative;
+      color: white;
+      &::before{
+         content: url(../img/phone.png);
+         position: absolute;
+         left: -70px;
+         top: -105px;
+      }
+   }
+   &__text{
+      font-size: 18px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      line-height: 1.2;
+      text-align: left;
+      transform: translateY(-20px);
+      &--bold{
+         font-weight: bold;
+      }
+   }
+   &__phone{
+      font-size: 30px;
+      color: white;
+      font-weight: bold;
+      font-style: italic;
+   }
+}
+

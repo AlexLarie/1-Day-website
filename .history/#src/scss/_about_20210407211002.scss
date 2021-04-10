@@ -1,0 +1,15 @@
+.about{
+   &__content{
+      display: flex;
+      justify-content: space-between;
+
+   }
+   .item{
+      display: flex;
+      flex-direction: column;
+      
+   }
+   &__r{
+      align-items: flex-end;
+   }
+}

@@ -1,0 +1,38 @@
+.general{
+   padding: 260px 0 100px 0;
+   &__content{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__left{
+      
+   }
+   &__title{
+      font-size: 2.7rem;
+      font-family: "Open Sans";
+      color: #0694f8;
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+   }
+   &__text{
+      font-size: 1.2rem;
+      font-style: italic;
+      line-height: 1.4;
+      font-family: "Open Sans";
+   }
+   &__right{
+
+   }
+}
+
+.form{
+   padding: 55px 30px 45px 30px;
+   border: 1px solid grey;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   border
+}

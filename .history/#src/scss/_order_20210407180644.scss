@@ -1,0 +1,14 @@
+.order{
+   background-image: url(../img/BG.png);
+   height: 300px;
+   margin-top: 120px;
+   background-repeat: no-repeat;
+   padding-top: 80px;
+   &__top{
+      display: flex;
+      justify-content: center;
+   }
+   &__notes{
+
+   }
+}

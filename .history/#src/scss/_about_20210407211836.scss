@@ -1,0 +1,29 @@
+.about{
+   &__content{
+      display: flex;
+      justify-content: space-between;
+
+   }
+   .item{
+      display: flex;
+      flex-direction: column;
+      max-width: 340px;
+   }
+   &__l{
+      align-items: flex-start;
+      text-align: start;
+   }
+   &__r{
+      align-items: flex-end;
+      text-align: end;
+   }
+   &__title{
+      font-size: 2.7rem;
+      font-family: "Open Sans";
+      color: #0694f8;
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+   }
+}

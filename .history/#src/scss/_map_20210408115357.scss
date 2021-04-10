@@ -1,0 +1,20 @@
+.map{
+   &::before{
+      content: none;
+   }
+   &::after{
+      content: none;
+   }
+   padding-top: 100px;
+   position: relative;
+   background-color: rgb(6, 148, 248);
+   &__l{
+      position: relative;
+      padding-bottom: 220px;
+   }
+   &__russia{
+      position: absolute;
+      bottom: 0px;
+      z-index: 10;
+   }
+}

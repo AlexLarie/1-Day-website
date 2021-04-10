@@ -1,0 +1,16 @@
+@import 'nullstyle';
+@import 'main';
+@import 'header';
+@import 'main-form';
+@import 'order';
+@import 'about';
+@import 'map';
+
+body {
+   font-family: "Open Sans";
+}
+.container{
+   max-width: 976px;
+   margin: 0 auto;
+   position: relative;
+}

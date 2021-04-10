@@ -1,0 +1,24 @@
+.general{
+   padding: 260px 0 100px 0;
+   &__content{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__left{
+      
+   }
+    
+   &__title{
+      font-size: 3rem;
+      font-family: "Open Sans";
+      color: rgb(6, 148, 248);
+      font-weight: bold;
+      font-style: italic;
+      line-height: 1.2;
+      margin-bottom: 30px;
+   }
+   &__text{
+      font-size: 1.2rem;
+
+   }
+}

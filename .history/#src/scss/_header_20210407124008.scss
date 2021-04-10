@@ -1,0 +1,60 @@
+.header{
+   height: 100vh;
+   background-image: url(../img/bg-header.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: 0 120px;
+}
+
+.nav{
+   height: 120px;
+   padding: 33px;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   background-color: #fff;
+   &__item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 20%;
+      color: gray;
+      &:hover{
+         color: red;
+      }
+   }
+   &__text{
+      margin-top: 10px;
+      font-family: inglobal;
+   }
+}
+
+
+
+.main{
+   img{
+      object-fit: cover;
+      width: 100%;
+
+   }
+   &__text{
+      .Lorem_ipsum_dolor____________________consectetu {
+         font-size: 48px;
+         font-family: "Open Sans";
+         color: rgb(255, 255, 255);
+         font-weight: bold;
+         font-style: italic;
+         line-height: 1.2;
+         text-align: center;
+         text-shadow: 1px 1.732px 0px rgba(30, 30, 30, 0.004);
+         -moz-transform: matrix( 0.98490855073595,-0.17307555196275,0.17307555196275,0.98490855073595,0,0);
+         -webkit-transform: matrix( 0.98490855073595,-0.17307555196275,0.17307555196275,0.98490855073595,0,0);
+         -ms-transform: matrix( 0.98490855073595,-0.17307555196275,0.17307555196275,0.98490855073595,0,0);
+         position: absolute;
+         left: 742.654px;
+         top: 317.941px;
+         z-index: 256;
+       }
+       
+   }
+}

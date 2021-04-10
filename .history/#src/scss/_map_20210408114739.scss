@@ -1,0 +1,12 @@
+.map{
+   &::before{
+      content: none;
+   }
+   &::after{
+      content: none;
+   }
+
+   position: relative;
+   height: 300px;
+   background-color: rgb(6, 148, 248);
+}

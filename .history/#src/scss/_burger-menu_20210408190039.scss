@@ -1,0 +1,9 @@
+.burger{
+   height: 70px;
+   border: 1px solid grey;
+   &__item{
+      height: 70px;
+      display: grid;
+      grid-template-columns: 1fr 70px;
+   }
+}

@@ -1,0 +1,43 @@
+.form__popap{
+   position: fixed;
+   left: 0px;
+   top: 20%;
+   z-index: 1000;
+   background-color: #fff;
+}
+
+.popap{
+   
+   &__show{
+      position: absolute;
+      transform: rotate(-90deg);
+      background-color: rgb(6, 148, 248);
+      width: 200px;
+      height: 50px;
+      display: grid;
+      grid-template-columns: 80% 20%;
+      padding: 10px;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      left: 243px;
+      top: 75px;
+   }
+   &__text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+.Rectangle_4 {
+   border-radius: 4px;
+   background-color: rgb(6, 148, 248);
+   box-shadow: inset 0px -2px 0px 0px rgba(5, 104, 181, 0.004);
+   position: absolute;
+   left: 40px;
+   top: 998px;
+   width: 240px;
+   height: 40px;
+   z-index: 262;
+ }
+ 

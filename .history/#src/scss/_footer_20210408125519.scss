@@ -1,0 +1,11 @@
+.footer{
+   height: 160px;
+   background-color: #fff;
+   &__inner{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+   &__text{
+      
+   }
+}
